@@ -1,21 +1,19 @@
 {
-  "name": "eth-playground",
+  "name": "pet-shop",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jasonashton/eth-playground.git"
-  },
-  "author": "Jason Ashton",
-  "bugs": {
-    "url": "https://github.com/jasonashton/eth-playground/issues"
-  },
-  "homepage": "https://github.com/jasonashton/eth-playground#readme",
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "truffle": "^5.4.26"
+    "truffle": "^5.4.26",
+    "lite-server": "^2.3.0"
   }
 }
